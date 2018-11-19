@@ -197,6 +197,10 @@ function bindApplications()
         hs.application.open("MacDown")
     end)
 
+    hs.hotkey.bind(alt, "D", function()
+        hs.application.open("DingTalk∂")
+    end)
+
     hs.hotkey.bind(alt, "T", function ()
         hs.application.open("iTerm")
     end)
