@@ -194,11 +194,11 @@ function bindApplications()
     end)
 
     hs.hotkey.bind(alt, "M", function ()
-        hs.application.open("MacDown")
+        hs.application.open("Typora")
     end)
 
     hs.hotkey.bind(alt, "D", function()
-        hs.application.open("DingTalk∂")
+        hs.application.open("DingTalk")
     end)
 
     hs.hotkey.bind(alt, "T", function ()
