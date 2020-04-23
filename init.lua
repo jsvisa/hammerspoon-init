@@ -189,6 +189,10 @@ function bindApplications()
         hs.application.open("Google Chrome")
     end)
 
+    hs.hotkey.bind(alt, "G", function()
+        hs.application.open("Telegram")
+    end)
+
     hs.hotkey.bind(alt, "W", function()
         hs.application.open("WeChat")
     end)
@@ -207,6 +211,10 @@ function bindApplications()
 
     hs.hotkey.bind(alt, "F", function ()
         hs.application.open("Firefox")
+    end)
+
+    hs.hotkey.bind(alt, "P", function ()
+        hs.application.open("TablePlus")
     end)
 end
 
